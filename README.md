@@ -1,4 +1,4 @@
-<div align="left" style="font-family: 'Fira Code';">
+<div align="left" style="background-color: #1a1a1a; color: #FFFFFF; border-radius: 8px; padding: 20px;margin: 0; font-family: 'Fira Code', 'Courier New', monospace; ">
 
 <div align="left">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=0&center=false&width=800&height=30&color=40E0D0&repeat=false&duration=1300&lines=$+whoami;" alt="Commands" />
