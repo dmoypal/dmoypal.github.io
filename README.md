@@ -1,4 +1,5 @@
-<div align="center">
+
+<div align="left">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=0&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&lines=$+whoami;" alt="Commands" />
     <br>
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=1300&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&lines=;David+Moyano+Palazuelo,+PhD;" alt="Responses" />
