@@ -20,7 +20,7 @@
 
 ---
 
-## 🔬 Scientific Publications
+## Scientific Publications
 
 - **"Essential gene complement of *Planctopirus limnophila* from the bacterial phylum Planctomycetes"**  
   Elena Rivas-Marin, **David Moyano-Palazuelo**, Valentina Henriques, Enrique Merino, Damien P. Devos  
@@ -32,7 +32,7 @@
 
 ---
 
-## 💻 Languages
+## Languages
 
 <div align="center">
 
@@ -45,7 +45,7 @@
 
 ---
 
-## 📂 Pinned Repositories
+## Pinned Repositories
 
 <div align="center">
 
@@ -75,7 +75,7 @@
 
 ---
 
-## 📫 Contact Information
+## Contact Information
 
 <div align="center">
 
