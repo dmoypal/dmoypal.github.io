@@ -1,20 +1,20 @@
 
 <div align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=0&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&lines=$+whoami;" alt="Commands" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=0&center=false&width=800&height=30&color=40E0D0&repeat=false&duration=1300&lines=$+whoami;" alt="Commands" />
     <br>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=1300&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&lines=;David+Moyano+Palazuelo,+PhD;" alt="Responses" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=1300&center=false&width=800&height=37&color=B0B0B0&repeat=false&duration=1000&lines=;David+Moyano+Palazuelo,+PhD;" alt="Responses" />
     <br>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=2300&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&lines=;$+which+PhD;" alt="Commands" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=2300&center=false&width=800&height=30&color=40E0D0&repeat=false&duration=1300&lines=;$+which+PhD;" alt="Commands" />
     <br>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=3600&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&lines=;Biotechnology,+working+on+Computational+Biology;" alt="Responses" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=3600&center=false&width=800&height=37&color=B0B0B0&repeat=false&duration=1000&lines=;Biotechnology,+working+on+Computational+Biology;" alt="Responses" />
     <br>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=4600&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&lines=;$+cat+/dmoypal/about.me;" alt="Commands" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=4600&center=false&width=800&height=30&color=40E0D0&repeat=false&duration=1300&lines=;$+cat+/dmoypal/about.me;" alt="Commands" />
     <br>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=5900&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&lines=;Passionate+about+science+and+technology,;" alt="Responses" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=5900&center=false&width=800&height=37&color=B0B0B0&repeat=false&duration=1000&lines=;Passionate+about+science+and+technology,;" alt="Responses" />
     <br>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=6900&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&lines=;always+curious+about+how+life+works;" alt="Responses" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=6900&center=false&width=800&height=37&color=B0B0B0&repeat=false&duration=1000&lines=;always+curious+about+how+life+works;" alt="Responses" />
     <br>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=7900&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&lines=;and+solving+complex+problems+with+code" alt="Responses" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=7900&center=false&width=800&height=37&color=B0B0B0&repeat=false&duration=1000&lines=;and+solving+complex+problems+with+code" alt="Responses" />
 </div>
 
 <br><br>
@@ -89,7 +89,7 @@
 ---
 
 <div align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=9000&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&lines=;$+echo+%22Thanks+for+visiting!%22;" alt="Commands" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=9000&center=false&width=800&height=30&color=40E0D0&repeat=false&duration=1300&lines=;$+echo+%22Thanks+for+visiting!%22;" alt="Commands" />
     <br>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=20&pause=10300&center=false&width=800&height=30&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&lines=;Thanks+for+visiting!;" alt="Responses" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=20&pause=10300&center=false&width=800&height=30&color=B0B0B0&repeat=false&duration=1000&lines=;Thanks+for+visiting!;" alt="Responses" />
 </div>
