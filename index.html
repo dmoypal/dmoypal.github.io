@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David Moyano Palazuelo, PhD in Biotechnology specializing in Computational Biology">
+    <meta name="keywords" content="David Moyano, PhD, Biotechnology, Computational Biology, Research, Python, R">
+    <meta name="author" content="David Moyano Palazuelo">
+    <title>David Moyano Palazuelo, PhD | Computational Biology</title>
+    
+    <!-- Preconnect to external domains for better performance -->
+    <link rel="preconnect" href="https://readme-typing-svg.demolab.com">
+    <link rel="preconnect" href="https://img.shields.io">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #FFFFFF;
+            font-family: 'Fira Code', 'Courier New', monospace;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .terminal-container {
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            padding: 40px 20px;
+            margin-bottom: 40px;
+        }
+
+        .typing-animation {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .typing-animation img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @keyframes fadeInUp {
+            from { 
+                opacity: 0; 
+                transform: translateY(20px); 
+            }
+            to { 
+                opacity: 1; 
+                transform: translateY(0); 
+            }
+        }
+
+        .delayed-content {
+            animation: fadeInUp 1s ease-out 10s both;
+        }
+
+        .section {
+            margin: 40px 0;
+            padding: 20px 0;
+        }
+
+        .section h2 {
+            color: #FFFFFF;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .divider {
+            border: none;
+            height: 1px;
+            background-color: #FFFFFF;
+            margin: 40px 0;
+            opacity: 0.3;
+        }
+
+        .publications {
+            margin: 30px 0;
+        }
+
+        .publication {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            border-left: 4px solid #40E0D0;
+        }
+
+        .publication-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+        }
+
+        .publication-authors {
+            font-size: 0.9rem;
+            color: #B0B0B0;
+            margin-bottom: 15px;
+        }
+
+        .badge {
+            display: inline-block;
+            margin: 5px 5px 5px 0;
+        }
+
+        .badge img {
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        .languages-grid {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+
+        .language-column {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .language-column img {
+            margin: 10px;
+            height: 35px;
+        }
+
+        .repos-section {
+            margin: 40px 0;
+        }
+
+        .repo-card {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 20px 0;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .repo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(64, 224, 208, 0.2);
+        }
+
+        .repo-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #40E0D0;
+            margin-bottom: 15px;
+        }
+
+        .repo-description {
+            color: #B0B0B0;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .repo-badges {
+            margin: 20px 0;
+        }
+
+        .repo-badges img {
+            margin: 5px;
+            height: 28px;
+        }
+
+        .contact-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+
+        .contact-item {
+            padding: 15px;
+        }
+
+        .contact-item img {
+            height: 35px;
+            transition: transform 0.3s ease;
+        }
+
+        .contact-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .footer-animation {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .terminal-container {
+                padding: 20px 10px;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+
+            .languages-grid {
+                gap: 20px;
+            }
+
+            .contact-grid {
+                gap: 10px;
+            }
+
+            .repo-card {
+                padding: 20px;
+            }
+
+            .typing-animation img {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .section h2 {
+                font-size: 1.3rem;
+            }
+
+            .publication-title {
+                font-size: 1rem;
+            }
+
+            .repo-title {
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1a1a1a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #40E0D0;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2DD4BF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="terminal-container loading">
+            <div class="typing-animation">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=0&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&lines=$+whoami;" alt="Command: whoami" />
+            </div>
+            <div class="typing-animation">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=500&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&multilines=true&lines=;David+Moyano+Palazuelo,+PhD;" alt="David Moyano Palazuelo, PhD" />
+            </div>
+            <div class="typing-animation">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1500&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&multilines=true&lines=;$+which+PhD;" alt="Command: which PhD" />
+            </div>
+            <div class="typing-animation">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=3000&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&multilines=true&lines=;PhD+in+Biotechnology,+working+on+Computational+Biology;" alt="PhD in Biotechnology" />
+            </div>
+            <div class="typing-animation">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=4600&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&multilines=true&lines=;$+cat+/dmoypal/about.me;" alt="Command: cat about.me" />
+            </div>
+            <div class="typing-animation">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=5900&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&multilines=true&lines=;Passionate+about+science+and+technology,;" alt="Passionate about science" />
+            </div>
+            <div class="typing-animation">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=6800&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&multilines=true&lines=;always+curious+about+how+life+works;" alt="Always curious" />
+            </div>
+            <div class="typing-animation">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=7800&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&multilines=true&lines=;and+solving+complex+problems+with+code" alt="Solving problems with code" />
+            </div>
+        </div>
+
+        <div class="delayed-content">
+            <hr class="divider">
+
+            <div class="section">
+                <h2>Scientific Publications</h2>
+                <div class="publications">
+                    <div class="publication">
+                        <div class="publication-title">
+                            "Essential gene complement of <em>Planctopirus limnophila</em> from the bacterial phylum Planctomycetes"
+                        </div>
+                        <div class="publication-authors">
+                            Elena Rivas-Marin, <strong>David Moyano-Palazuelo</strong>, Valentina Henriques, Enrique Merino, Damien P. Devos
+                        </div>
+                        <div class="badge">
+                            <img src="https://img.shields.io/badge/Nature_Communications-2023-FF6B6B?style=flat-square" alt="Nature Communications 2023">
+                        </div>
+                        <div class="badge">
+                            <img src="https://img.shields.io/badge/Co--first_author-gold?style=flat-square" alt="Co-first author">
+                        </div>
+                        <div class="badge">
+                            <a href="https://doi.org/10.1038/s41467-023-43096-3" target="_blank">
+                                <img src="https://img.shields.io/badge/DOI-10.1038/s41467--023--43096--3-blue?style=flat-square" alt="DOI Link">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <div class="publication-title">
+                            "<em>Verrucomicrobium spinosum</em> essential genome and the divergence of cell division in the PVC superphylum"
+                        </div>
+                        <div class="publication-authors">
+                            Valentina Henriques, <strong>David Moyano-Palazuelo</strong>, Maria Teresa Alonso-Pascual, Manuel Pazos, Damien P. Devos, Elena Rivas-Marin
+                        </div>
+                        <div class="badge">
+                            <img src="https://img.shields.io/badge/iScience-2025-4ECDC4?style=flat-square" alt="iScience 2025">
+                        </div>
+                        <div class="badge">
+                            <a href="https://doi.org/10.1016/j.isci.2025.113037" target="_blank">
+                                <img src="https://img.shields.io/badge/DOI-10.1016/j.isci.2025.113037-blue?style=flat-square" alt="DOI Link">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <div class="section">
+                <h2>Languages</h2>
+                <div class="languages-grid">
+                    <div class="language-column">
+                        <img src="https://img.shields.io/badge/Python-FF6B6B?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                        <img src="https://img.shields.io/badge/R-4ECDC4?style=for-the-badge&logo=r&logoColor=white" alt="R">
+                    </div>
+                    <div class="language-column">
+                        <img src="https://img.shields.io/badge/Bash-95E1D3?style=for-the-badge&logo=gnubash&logoColor=black" alt="Bash">
+                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+                    </div>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <div class="section">
+                <h2>Pinned Repositories</h2>
+                <div class="repos-section">
+                    <div class="repo-card">
+                        <div class="repo-title">PVC database</div>
+                        <div class="repo-description">
+                            A comprehensive web resource for exploring the Planctomycetota–Verrucomicrobiota–Chlamydiota (PVC) superphylum
+                        </div>
+                        <div class="repo-badges">
+                            <img src="https://img.shields.io/badge/GitHub-View_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+                            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+                            <a href="https://biocomputo.ibt.unam.mx:8083/" target="_blank">
+                                <img src="https://img.shields.io/badge/Website-Live_Demo-4ECDC4?style=for-the-badge&logo=globe&logoColor=white" alt="Live Demo">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="repo-card">
+                        <div class="repo-title">TraDis in P. limnophila</div>
+                        <div class="repo-description">
+                            Code used for processing the raw sequence data, and for predicting essential genes
+                        </div>
+                        <div class="repo-badges">
+                            <a href="https://github.com/dmoypal/TraDIS_in_P.limnophila" target="_blank">
+                                <img src="https://img.shields.io/badge/GitHub-View_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+                            </a>
+                            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                            <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R">
+                        </div>
+                    </div>
+
+                    <div class="repo-card">
+                        <div class="repo-title">TraDis in V. spinosum</div>
+                        <div class="repo-description">
+                            Code used for processing the raw sequence data, and for predicting essential genes
+                        </div>
+                        <div class="repo-badges">
+                            <a href="https://github.com/dmoypal/TraDIS_in_V.spinosum" target="_blank">
+                                <img src="https://img.shields.io/badge/GitHub-View_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+                            </a>
+                            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                            <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <div class="section">
+                <h2>Contact Information</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <a href="mailto:moyanopalazuelo@gmail.com">
+                            <img src="https://img.shields.io/badge/Email-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://www.linkedin.com/in/d-moyano-palazuelo" target="_blank">
+                            <img src="https://img.shields.io/badge/LinkedIn-4ECDC4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://orcid.org/0000-0002-5400-3659" target="_blank">
+                            <img src="https://img.shields.io/badge/ORCID-95E1D3?style=for-the-badge&logo=orcid&logoColor=black" alt="ORCID">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <div class="footer-animation">
+                <div class="typing-animation">
+                    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=9000&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&lines=;$+echo+%22Thanks+for+visiting!%22;" alt="Thanks command" />
+                </div>
+                <div class="typing-animation">
+                    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=10300&center=false&width=800&height=37&color=B0B0B0&background=1a1a1a&repeat=false&duration=1000&lines=;Thanks+for+visiting!+Feel+free+to+reach+out;" alt="Thanks message" />
+                </div>
+                <div class="typing-animation">
+                    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=11300&center=false&width=800&height=30&color=40E0D0&background=1a1a1a&repeat=false&duration=1300&lines=;$+logout;" alt="Logout command" />
+                </div>
+                <div class="typing-animation">
+                    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=12600&center=false&width=800&height=37&color=95E1D3&background=1a1a1a&repeat=false&duration=1000&lines=;Session+ended.+See+you+soon!;" alt="Session ended" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add loading animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const loadingElements = document.querySelectorAll('.loading');
+            loadingElements.forEach(element => {
+                element.style.opacity = '1';
+            });
+        });
+
+        // Smooth hover effects for repo cards
+        document.querySelectorAll('.repo-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.borderColor = 'rgba(64, 224, 208, 0.3)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+            });
+        });
+
+        // Add click analytics (optional)
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function() {
+                console.log('Link clicked:', this.href);
+            });
+        });
+    </script>
+</body>
+</html>
