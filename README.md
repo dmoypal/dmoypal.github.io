@@ -17,7 +17,7 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=7900&center=false&width=800&height=37&color=B0B0B0&repeat=false&duration=1000&lines=;and+solving+complex+problems+with+code" alt="Responses" />
 </div>
 
-<br><br>
+<br>
 
 ---
 
