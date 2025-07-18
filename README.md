@@ -1,3 +1,4 @@
+<div align="left">
 
 <div align="left">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=0&center=false&width=800&height=30&color=40E0D0&repeat=false&duration=1300&lines=$+whoami;" alt="Commands" />
@@ -17,11 +18,11 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&pause=7900&center=false&width=800&height=37&color=B0B0B0&repeat=false&duration=1000&lines=;and+solving+complex+problems+with+code" alt="Responses" />
 </div>
 
-<br>
+<br><br>
 
 ---
 
-## 🔬 Scientific Publications
+## Scientific Publications
 
 - **"Essential gene complement of *Planctopirus limnophila* from the bacterial phylum Planctomycetes"**  
   Elena Rivas-Marin, **David Moyano-Palazuelo**, Valentina Henriques, Enrique Merino, Damien P. Devos  
@@ -33,7 +34,7 @@
 
 ---
 
-## 💻 Languages
+## Languages
 
 <div align="center">
 
@@ -46,7 +47,7 @@
 
 ---
 
-## 📂 Pinned Repositories
+## Pinned Repositories
 
 <div align="center">
 
@@ -76,7 +77,7 @@
 
 ---
 
-## 📫 Contact Information
+## Contact Information
 
 <div align="center">
 
@@ -92,4 +93,6 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=9000&center=false&width=800&height=30&color=40E0D0&repeat=false&duration=1300&lines=;$+echo+%22Thanks+for+visiting!%22;" alt="Commands" />
     <br>
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=20&pause=10300&center=false&width=800&height=30&color=B0B0B0&repeat=false&duration=1000&lines=;Thanks+for+visiting!;" alt="Responses" />
+</div>
+
 </div>
