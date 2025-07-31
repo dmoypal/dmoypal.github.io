@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9fafb;
+    color: #374151;
+    font-family: 'Fira Code', 'Courier New', monospace;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    min-height: 100vh;
+}
+
+.terminal-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+.typing-animation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.typing-animation img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes fadeInUp {
+    from { 
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.delayed-content {
+    animation: fadeInUp 1s ease-out 10s both;
+}
+
+.early-contact {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out 8.5s both;
+    margin-top: 20px;
+}
+
+.section {
+    margin: 40px 0;
+    padding: 20px 0;
+}
+
+.section h2 {
+    color: #2d3748;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #d1d5db;
+    margin: 40px 0;
+    opacity: 0.8;
+}
+
+.publications {
+    margin: 30px 0;
+}
+
+.publication {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(30, 64, 175, 0.05);
+    border-radius: 8px;
+    border-left: 4px solid #1e40af;
+}
+
+.publication-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2d3748;
+}
+
+.publication-authors {
+    font-size: 0.9rem;
+    color: #374151;
+    margin-bottom: 15px;
+}
+
+.badge {
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    background-color: #1e40af;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.badge:hover {
+    background-color: #2d3748;
+}
+
+.badge img {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.languages-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.language-column {
+    text-align: center;
+    padding: 20px;
+}
+
+.language-column img {
+    margin: 10px;
+    height: 35px;
+}
+
+.repos-section {
+    margin: 40px 0;
+}
+
+.repo-card {
+    background-color: rgba(30, 64, 175, 0.05);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px 0;
+    text-align: center;
+    border: 1px solid rgba(30, 64, 175, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.repo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(30, 64, 175, 0.15);
+}
+
+.repo-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+.repo-description {
+    color: #374151;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.repo-badges {
+    margin: 20px 0;
+}
+
+.repo-badges img {
+    margin: 5px;
+    height: 28px;
+}
+
+.repo-badges a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.repo-badges a:hover img {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.contact-item {
+    padding: 15px;
+}
+
+.contact-item img {
+    height: 35px;
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover img {
+    transform: scale(1.1);
+}
+
+.footer-animation {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .contact-info {
+        gap: 15px;
+    }
+
+    .cv-entry {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .skill-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .languages-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .section-header {
+        font-size: 1rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Animation for skill bars */
+.skill-progress {
+    animation: loadSkill 1.5s ease-out;
+}
+
+@keyframes loadSkill {
+    from { width: 0; }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
